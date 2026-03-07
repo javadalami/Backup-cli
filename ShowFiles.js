@@ -1,4 +1,3 @@
-// اجرای گزینه 4
 Array.from(document.querySelectorAll('tr')).map(tr => {
     const tds = tr.querySelectorAll('td');
     if (tds.length >= 2) {
